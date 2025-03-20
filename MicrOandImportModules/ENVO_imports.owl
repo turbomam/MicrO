@@ -2,7 +2,7 @@
 <rdf:RDF xmlns="http://ontofox.hegroup.org/ENVO_imports.owl#"
      xml:base="http://ontofox.hegroup.org/ENVO_imports.owl"
      xmlns:obo="http://purl.obolibrary.org/obo/"
-     xmlns:obo2="https://purl.obolibrary.org/obo/"
+     xmlns:obo2="http://purl.obolibrary.org/obo/"
      xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
      xmlns:owl="http://www.w3.org/2002/07/owl#"
      xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
@@ -11720,7 +11720,7 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/ENVO_00002034">
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">biofilm</rdfs:label>
-        <rdfs:subClassOf rdf:resource="https://purl.obolibrary.org/obo/ENVO_01000549"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ENVO_01000549"/>
         <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A complex aggregation of microorganisms marked by the excretion of a protective and adhesive matrix; usually adhering to a substratum.</obo:IAO_0000115>
         <oboInOwl:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ENVO</oboInOwl:hasOBONamespace>
         <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ENVO:00002034</oboInOwl:id>
@@ -19598,7 +19598,7 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/ENVO_01000008">
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">microbial mat</rdfs:label>
-        <rdfs:subClassOf rdf:resource="https://purl.obolibrary.org/obo/ENVO_01000549"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ENVO_01000549"/>
         <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A multi-layered sheet of micro-organisms, mainly bacteria and archaea. Microbial mats grow at interfaces between different types of material, mostly on submerged or moist surfaces but a few survive in deserts.</obo:IAO_0000115>
         <oboInOwl:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ENVO</oboInOwl:hasOBONamespace>
         <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ENVO:01000008</oboInOwl:id>
@@ -21468,7 +21468,7 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/ENVO_01000137">
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">organic matter fall</rdfs:label>
-        <rdfs:subClassOf rdf:resource="https://purl.obolibrary.org/obo/ENVO_01000549"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ENVO_01000549"/>
         <oboInOwl:creation_date rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2010-03-20T06:25:30Z</oboInOwl:creation_date>
         <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">An accumulation of organic matter that has fallen to the bottom of a body of water.</obo:IAO_0000115>
         <oboInOwl:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ENVO</oboInOwl:hasOBONamespace>
@@ -24250,7 +24250,7 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/ENVO_01000323">
         <rdfs:label>atmospheric boundary layer</rdfs:label>
-        <rdfs:subClassOf rdf:resource="https://purl.obolibrary.org/obo/ENVO_01000544"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ENVO_01000544"/>
         <oboInOwl:hasExactSynonym>planetary boundary layer</oboInOwl:hasExactSynonym>
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/envo.owl"/>
     </owl:Class>
@@ -26899,7 +26899,7 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/ENVO_01000538">
         <rdfs:label>stratosphere</rdfs:label>
-        <rdfs:subClassOf rdf:resource="https://purl.obolibrary.org/obo/ENVO_01000543"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ENVO_01000543"/>
         <obo:IAO_0000115>The layer of the atmosphere which is sandwiched between the troposphere and mesosphere. Of the energy that reaches the Earth from the sun, only 3% is absorbed in the stratosphere, but that includes the vitally important process of absorption of ultraviolet radiation by the stratospheric ozone layer. The stratosphere is cloudless and dust free, and almost unaffected by the turbulent conditions of the underlying level of the atmosphere. (Source: WRIGHT)</obo:IAO_0000115>
         <rdfs:comment>Definition from GEMET - will be refined.</rdfs:comment>
         <oboInOwl:created_by>ORCID:0000-0002-4366-3088</oboInOwl:created_by>
@@ -26912,7 +26912,7 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/ENVO_01000539">
         <rdfs:label>mesosphere</rdfs:label>
-        <rdfs:subClassOf rdf:resource="https://purl.obolibrary.org/obo/ENVO_01000543"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ENVO_01000543"/>
         <oboInOwl:created_by>ORCID:0000-0002-4366-3088</oboInOwl:created_by>
         <obo:IAO_0000115>The mesosphere is part of the earth&#39;s atmosphere which is between the stratosphere and the thermosphere in which temperature decreases with altitude to the atmosphere&#39;s absolute minimum</obo:IAO_0000115>
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/envo.owl"/>
@@ -26924,7 +26924,7 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/ENVO_01000540">
         <rdfs:label>troposphere</rdfs:label>
-        <rdfs:subClassOf rdf:resource="https://purl.obolibrary.org/obo/ENVO_01000543"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ENVO_01000543"/>
         <rdfs:comment>Definition from GEMET - will be refined.</rdfs:comment>
         <oboInOwl:created_by>ORCID:0000-0002-4366-3088</oboInOwl:created_by>
         <obo:IAO_0000115>The lowest of the concentric layers of the atmosphere, occurring between the Earth&#39;s surface and the tropopause. It is the zone where atmospheric turbulence is at its greatest and where the bulk of the Earth&#39;s weather is generated. It contains almost all the water vapour and aerosols and three-quarters of the total gaseous mass of the atmosphere. Throughout the troposphere temperature decreases with height at a mean rate of 6.5°C/km and the whole zone is capped by either an inversion of temperature or an isothermal layer at the tropopause. (Source: WHIT)</obo:IAO_0000115>
@@ -26937,7 +26937,7 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/ENVO_01000541">
         <rdfs:label>thermosphere</rdfs:label>
-        <rdfs:subClassOf rdf:resource="https://purl.obolibrary.org/obo/ENVO_01000543"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ENVO_01000543"/>
         <obo:IAO_0000115>The thermosphere is a part of the earth&#39;s atmosphere that begins at about 50 miles (80 kilometers) above the earth&#39;s surface, extends to outer space, and is characterized by steadily increasing temperature with height</obo:IAO_0000115>
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/envo.owl"/>
     </owl:Class>
@@ -29969,11 +29969,11 @@
     
 
 
-    <!-- https://purl.obolibrary.org/obo/ENVO_01000542 -->
+    <!-- http://purl.obolibrary.org/obo/ENVO_01000542 -->
 
-    <owl:Class rdf:about="https://purl.obolibrary.org/obo/ENVO_01000542">
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ENVO_01000542">
         <rdfs:label xml:lang="en">ozone layer</rdfs:label>
-        <rdfs:subClassOf rdf:resource="https://purl.obolibrary.org/obo/ENVO_01000543"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ENVO_01000543"/>
         <obo:IAO_0000115>The ozone layer is a layer of gases in the stratosphere which contains high concentrations of ozone gas relative to other parts of the atmosphere.</obo:IAO_0000115>
         <oboInOwl:hasRelatedSynonym>ozone layer</oboInOwl:hasRelatedSynonym>
         <oboInOwl:hasExactSynonym>ozone shield</oboInOwl:hasExactSynonym>
@@ -29983,9 +29983,9 @@
     
 
 
-    <!-- https://purl.obolibrary.org/obo/ENVO_01000543 -->
+    <!-- http://purl.obolibrary.org/obo/ENVO_01000543 -->
 
-    <owl:Class rdf:about="https://purl.obolibrary.org/obo/ENVO_01000543">
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ENVO_01000543">
         <rdfs:label xml:lang="en">atmospheric layer</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ENVO_01000281"/>
         <oboInOwl:created_by>ORCID:0000-0002-4366-3088</oboInOwl:created_by>
@@ -29997,9 +29997,9 @@
     
 
 
-    <!-- https://purl.obolibrary.org/obo/ENVO_01000544 -->
+    <!-- http://purl.obolibrary.org/obo/ENVO_01000544 -->
 
-    <owl:Class rdf:about="https://purl.obolibrary.org/obo/ENVO_01000544">
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ENVO_01000544">
         <rdfs:label xml:lang="en">boundary layer</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ENVO_01000281"/>
         <oboInOwl:created_by>ORCID:0000-0002-4366-3088</oboInOwl:created_by>
@@ -30010,11 +30010,11 @@
     
 
 
-    <!-- https://purl.obolibrary.org/obo/ENVO_01000545 -->
+    <!-- http://purl.obolibrary.org/obo/ENVO_01000545 -->
 
-    <owl:Class rdf:about="https://purl.obolibrary.org/obo/ENVO_01000545">
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ENVO_01000545">
         <rdfs:label xml:lang="en">ionosphere</rdfs:label>
-        <rdfs:subClassOf rdf:resource="https://purl.obolibrary.org/obo/ENVO_01000543"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ENVO_01000543"/>
         <obo:IAO_0000115>The ionosphere is a layer of the Earth&#39;s atmosphere which extends from about 60 to 1,000 kilometers above the planetary surface and is ionised by solar radiation. It includes the thermosphere and parts of the mesosphere and exosphere.</obo:IAO_0000115>
         <oboInOwl:created_by>ORCID:0000-0002-4366-3088</oboInOwl:created_by>
         <oboInOwl:hasRelatedSynonym>ionosphere</oboInOwl:hasRelatedSynonym>
@@ -30023,11 +30023,11 @@
     
 
 
-    <!-- https://purl.obolibrary.org/obo/ENVO_01000546 -->
+    <!-- http://purl.obolibrary.org/obo/ENVO_01000546 -->
 
-    <owl:Class rdf:about="https://purl.obolibrary.org/obo/ENVO_01000546">
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ENVO_01000546">
         <rdfs:label xml:lang="en">exosphere</rdfs:label>
-        <rdfs:subClassOf rdf:resource="https://purl.obolibrary.org/obo/ENVO_01000543"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ENVO_01000543"/>
         <oboInOwl:created_by>ORCID:0000-0002-4366-3088</oboInOwl:created_by>
         <obo:IAO_0000115>The exosphere is an atmospheric layer where molecules are gravitationally bound to a planetary body, but where their density is too low for them to behave as a gas by colliding with each other. In the case of bodies with substantial atmospheres, such as Earth&#39;s atmosphere, the exosphere is the uppermost layer, where the atmosphere thins out and merges with interplanetary space. It is located directly above the thermosphere.</obo:IAO_0000115>
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/envo.owl"/>
@@ -30035,9 +30035,9 @@
     
 
 
-    <!-- https://purl.obolibrary.org/obo/ENVO_01000547 -->
+    <!-- http://purl.obolibrary.org/obo/ENVO_01000547 -->
 
-    <owl:Class rdf:about="https://purl.obolibrary.org/obo/ENVO_01000547">
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ENVO_01000547">
         <rdfs:label xml:lang="en">glaze ice layer</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ENVO_00000131"/>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ENVO_01000281"/>
@@ -30051,9 +30051,9 @@
     
 
 
-    <!-- https://purl.obolibrary.org/obo/ENVO_01000548 -->
+    <!-- http://purl.obolibrary.org/obo/ENVO_01000548 -->
 
-    <owl:Class rdf:about="https://purl.obolibrary.org/obo/ENVO_01000548">
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ENVO_01000548">
         <rdfs:label xml:lang="en">eutrophic lake</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ENVO_00000020"/>
         <obo:IAO_0000115>A lake which has nutrient-rich water.</obo:IAO_0000115>
@@ -30063,9 +30063,9 @@
     
 
 
-    <!-- https://purl.obolibrary.org/obo/ENVO_01000549 -->
+    <!-- http://purl.obolibrary.org/obo/ENVO_01000549 -->
 
-    <owl:Class rdf:about="https://purl.obolibrary.org/obo/ENVO_01000549">
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ENVO_01000549">
         <rdfs:label xml:lang="en">mass of biological material</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ENVO_00002004"/>
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/envo.owl"/>
