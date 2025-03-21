@@ -1,26 +1,14 @@
 <?xml version="1.0"?>
-
-
-<!DOCTYPE rdf:RDF [
-    <!ENTITY owl "http://www.w3.org/2002/07/owl#" >
-    <!ENTITY obo "http://purl.obolibrary.org/obo/" >
-    <!ENTITY xsd "http://www.w3.org/2001/XMLSchema#" >
-    <!ENTITY fma "http://purl.obolibrary.org/obo/fma#" >
-    <!ENTITY rdfs "http://www.w3.org/2000/01/rdf-schema#" >
-    <!ENTITY rdf "http://www.w3.org/1999/02/22-rdf-syntax-ns#" >
-    <!ENTITY oboInOwl "http://www.geneontology.org/formats/oboInOwl#" >
-]>
-
-
-<rdf:RDF xmlns="http://ontofox.hegroup.org/kkoz3j3y.owl#"
-     xml:base="http://ontofox.hegroup.org/kkoz3j3y.owl"
+<rdf:RDF xmlns="https://raw.githubusercontent.com/carrineblank/MicrO/master/MicrOandImportModules/FMA_imports.owl#"
+     xml:base="https://raw.githubusercontent.com/carrineblank/MicrO/master/MicrOandImportModules/FMA_imports.owl"
+     xmlns:fma="http://purl.obolibrary.org/obo/fma#"
      xmlns:obo="http://purl.obolibrary.org/obo/"
-     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
      xmlns:owl="http://www.w3.org/2002/07/owl#"
-     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
      xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
-     xmlns:oboInOwl="http://www.geneontology.org/formats/oboInOwl#"
-     xmlns:fma="&obo;fma#">
+     xmlns:xml="http://www.w3.org/XML/1998/namespace"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+     xmlns:oboInOwl="http://www.geneontology.org/formats/oboInOwl#">
     <owl:Ontology rdf:about="https://raw.githubusercontent.com/carrineblank/MicrO/master/MicrOandImportModules/FMA_imports.owl"/>
     
 
@@ -38,15 +26,15 @@
 
     <!-- http://purl.obolibrary.org/obo/IAO_0000115 -->
 
-    <owl:AnnotationProperty rdf:about="&obo;IAO_0000115">
-        <rdfs:label rdf:datatype="&xsd;string">definition</rdfs:label>
+    <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/IAO_0000115">
+        <rdfs:label>definition</rdfs:label>
     </owl:AnnotationProperty>
     
 
 
     <!-- http://purl.obolibrary.org/obo/IAO_0000412 -->
 
-    <owl:AnnotationProperty rdf:about="&obo;IAO_0000412">
+    <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/IAO_0000412">
         <rdfs:label xml:lang="en">imported from</rdfs:label>
     </owl:AnnotationProperty>
     
@@ -54,29 +42,29 @@
 
     <!-- http://www.geneontology.org/formats/oboInOwl#hasExactSynonym -->
 
-    <owl:AnnotationProperty rdf:about="&oboInOwl;hasExactSynonym">
-        <rdfs:label rdf:datatype="&xsd;string">has_exact_synonym</rdfs:label>
+    <owl:AnnotationProperty rdf:about="http://www.geneontology.org/formats/oboInOwl#hasExactSynonym">
+        <rdfs:label>has_exact_synonym</rdfs:label>
     </owl:AnnotationProperty>
     
 
 
     <!-- http://www.geneontology.org/formats/oboInOwl#hasOBONamespace -->
 
-    <owl:AnnotationProperty rdf:about="&oboInOwl;hasOBONamespace">
-        <rdfs:label rdf:datatype="&xsd;string">has_obo_namespace</rdfs:label>
+    <owl:AnnotationProperty rdf:about="http://www.geneontology.org/formats/oboInOwl#hasOBONamespace">
+        <rdfs:label>has_obo_namespace</rdfs:label>
     </owl:AnnotationProperty>
     
 
 
     <!-- http://www.geneontology.org/formats/oboInOwl#id -->
 
-    <owl:AnnotationProperty rdf:about="&oboInOwl;id"/>
+    <owl:AnnotationProperty rdf:about="http://www.geneontology.org/formats/oboInOwl#id"/>
     
 
 
     <!-- http://www.w3.org/2000/01/rdf-schema#label -->
 
-    <owl:AnnotationProperty rdf:about="&rdfs;label"/>
+    <owl:AnnotationProperty rdf:about="http://www.w3.org/2000/01/rdf-schema#label"/>
     
 
 
@@ -93,8 +81,8 @@
 
     <!-- http://purl.obolibrary.org/obo/fma#regional_part_of -->
 
-    <owl:ObjectProperty rdf:about="&obo;fma#regional_part_of">
-        <rdfs:label rdf:datatype="&xsd;string">regional_part_of</rdfs:label>
+    <owl:ObjectProperty rdf:about="http://purl.obolibrary.org/obo/fma#regional_part_of">
+        <rdfs:label>regional_part_of</rdfs:label>
     </owl:ObjectProperty>
     
 
@@ -112,58 +100,58 @@
 
     <!-- http://purl.obolibrary.org/obo/FMA_62955 -->
 
-    <owl:Class rdf:about="&obo;FMA_62955">
-        <rdfs:label rdf:datatype="&xsd;string">Anatomical entity</rdfs:label>
-        <oboInOwl:id rdf:datatype="&xsd;string">FMA:62955</oboInOwl:id>
-        <obo:IAO_0000115 rdf:datatype="&xsd;string">Organismal continuant entity which is enclosed by the bona fide boundary of an organism or is an attribute of its structural organization. Examples: cell, heart, head, peritoneal cavity, apex of lung, anatomical term, sagittal plane.</obo:IAO_0000115>
-        <oboInOwl:hasOBONamespace rdf:datatype="&xsd;string">fma</oboInOwl:hasOBONamespace>
-        <obo:IAO_0000412 rdf:resource="&obo;fma.owl"/>
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/FMA_62955">
+        <obo:IAO_0000115>Organismal continuant entity which is enclosed by the bona fide boundary of an organism or is an attribute of its structural organization. Examples: cell, heart, head, peritoneal cavity, apex of lung, anatomical term, sagittal plane.</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/fma.owl"/>
+        <oboInOwl:hasOBONamespace>fma</oboInOwl:hasOBONamespace>
+        <oboInOwl:id>FMA:62955</oboInOwl:id>
+        <rdfs:label>Anatomical entity</rdfs:label>
     </owl:Class>
     
 
 
     <!-- http://purl.obolibrary.org/obo/FMA_67302 -->
 
-    <owl:Class rdf:about="&obo;FMA_67302">
-        <rdfs:label rdf:datatype="&xsd;string">Keratin</rdfs:label>
-        <rdfs:subClassOf rdf:resource="&obo;FMA_62955"/>
-        <oboInOwl:hasExactSynonym rdf:datatype="&xsd;string">Cytokeratin</oboInOwl:hasExactSynonym>
-        <oboInOwl:id rdf:datatype="&xsd;string">FMA:67302</oboInOwl:id>
-        <oboInOwl:hasOBONamespace rdf:datatype="&xsd;string">fma</oboInOwl:hasOBONamespace>
-        <obo:IAO_0000412 rdf:resource="&obo;fma.owl"/>
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/FMA_67302">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/FMA_62955"/>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/fma.owl"/>
+        <oboInOwl:hasExactSynonym>Cytokeratin</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasOBONamespace>fma</oboInOwl:hasOBONamespace>
+        <oboInOwl:id>FMA:67302</oboInOwl:id>
+        <rdfs:label>Keratin</rdfs:label>
     </owl:Class>
     
 
 
     <!-- http://purl.obolibrary.org/obo/FMA_67318 -->
 
-    <owl:Class rdf:about="&obo;FMA_67318">
-        <rdfs:label rdf:datatype="&xsd;string">Keratin I</rdfs:label>
-        <rdfs:subClassOf rdf:resource="&obo;FMA_67302"/>
-        <oboInOwl:hasExactSynonym rdf:datatype="&xsd;string">Acidic keratin</oboInOwl:hasExactSynonym>
-        <oboInOwl:id rdf:datatype="&xsd;string">FMA:67318</oboInOwl:id>
-        <oboInOwl:hasExactSynonym rdf:datatype="&xsd;string">Type I keratin</oboInOwl:hasExactSynonym>
-        <oboInOwl:hasOBONamespace rdf:datatype="&xsd;string">fma</oboInOwl:hasOBONamespace>
-        <obo:IAO_0000412 rdf:resource="&obo;fma.owl"/>
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/FMA_67318">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/FMA_67302"/>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/fma.owl"/>
+        <oboInOwl:hasExactSynonym>Acidic keratin</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>Type I keratin</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasOBONamespace>fma</oboInOwl:hasOBONamespace>
+        <oboInOwl:id>FMA:67318</oboInOwl:id>
+        <rdfs:label>Keratin I</rdfs:label>
     </owl:Class>
     
 
 
     <!-- http://purl.obolibrary.org/obo/FMA_67324 -->
 
-    <owl:Class rdf:about="&obo;FMA_67324">
-        <rdfs:label rdf:datatype="&xsd;string">Keratin II</rdfs:label>
-        <rdfs:subClassOf rdf:resource="&obo;FMA_67302"/>
-        <oboInOwl:hasExactSynonym rdf:datatype="&xsd;string">Basic keratin</oboInOwl:hasExactSynonym>
-        <oboInOwl:id rdf:datatype="&xsd;string">FMA:67324</oboInOwl:id>
-        <oboInOwl:hasExactSynonym rdf:datatype="&xsd;string">Neutral keratin</oboInOwl:hasExactSynonym>
-        <oboInOwl:hasExactSynonym rdf:datatype="&xsd;string">Type II keratin</oboInOwl:hasExactSynonym>
-        <oboInOwl:hasOBONamespace rdf:datatype="&xsd;string">fma</oboInOwl:hasOBONamespace>
-        <obo:IAO_0000412 rdf:resource="&obo;fma.owl"/>
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/FMA_67324">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/FMA_67302"/>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/fma.owl"/>
+        <oboInOwl:hasExactSynonym>Basic keratin</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>Neutral keratin</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>Type II keratin</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasOBONamespace>fma</oboInOwl:hasOBONamespace>
+        <oboInOwl:id>FMA:67324</oboInOwl:id>
+        <rdfs:label>Keratin II</rdfs:label>
     </owl:Class>
 </rdf:RDF>
 
 
 
-<!-- Generated by the OWL API (version 3.4.2) http://owlapi.sourceforge.net -->
+<!-- Generated by the OWL API (version 4.5.26) https://github.com/owlcs/owlapi -->
 
